@@ -20,11 +20,10 @@ public class Terracotta : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            blickyy++;
-            return;
-            if(blickyy <= sigh)
+            if(blickyy <= sigh && !j.isPlaying)
             {
                 Yikes(pork);
+                blickyy++;
             }
         } 
     }
